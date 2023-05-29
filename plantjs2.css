@@ -75,9 +75,7 @@ header{
     background-color: rgba(41, 147, 112, 0.91);
     transition:all 0.5s ease-in-out;
     padding-top: 2vw;
-    
-    
-  }
+}
   
   .hamburger-menu ul li{
     text-transform: capitalize;
@@ -95,8 +93,7 @@ header{
     transition:all 0.5s ease-in-out;
     color:rgba(148, 48, 98);
     
-    
-  }
+}
   
   ul {
     list-style-type: none;
