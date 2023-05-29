@@ -1,0 +1,1754 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+h1,h2,h3,h4,h5 p{
+    margin: 0;
+    padding: 0;
+
+}
+
+.first-sec{
+    background-color: #fff;
+    min-height: 36vw;
+}
+.logo:hover{
+    animation: 1s ease-in forwards;
+    animation-name: logo;
+}
+@keyframes logo {
+    0% {
+        margin-left: 0;
+    }25%{
+        margin-left: 0.5vw;
+    }50%{
+        margin-left: 1vw;
+    }100%{
+        margin-left: 2vw;
+    }
+}
+
+.logo i{
+    font-size: 2vw;
+    color: #003826;
+}
+.logo span{
+    font-size: 1.8vw;
+    font-weight: 700;
+}
+
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10vw;
+    
+}
+
+.header-list ul{
+    display: flex;
+    list-style-type: none;
+    gap: 2vw;
+  }
+  .header-list ul li a{
+      font-size: 1.5vw;
+      font-weight: 500;
+      color: #474747;
+      text-transform: capitalize;
+      text-decoration: none;
+  }
+
+  .hamburger-icon{
+    display:none
+  }
+  
+  .hamburger-menu{
+    position:fixed;
+    top:0;
+    right:-2000px;
+    background-color:#003826;
+    height:100%;
+    width:30%;
+    background-color: rgba(41, 147, 112, 0.91);
+    transition:all 0.5s ease-in-out;
+    padding-top: 2vw;
+    
+    
+  }
+  
+  .hamburger-menu ul li{
+    text-transform: capitalize;
+    color: #fff;
+    margin: 2vw 0;
+    
+}
+.hamburger-menu ul a{
+    text-decoration: none;
+}
+
+  .hamburger-menu ul li:hover{
+    
+    margin-left:2vw;
+    transition:all 0.5s ease-in-out;
+    color:rgba(148, 48, 98);
+    
+    
+  }
+  
+  ul {
+    list-style-type: none;
+    
+  }
+  
+.sec1-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4vw;
+   
+}
+.img1{
+    width: 35vw;
+    height: 25vw;
+    position: relative;
+}
+.img1:hover{
+    animation: 1s ease-in-out infinite;
+    animation-name: img1;
+}
+@keyframes img1 {
+
+    0% {
+        bottom: 0;
+    }
+    50%{
+        bottom:5vw;
+    }    
+    100%{
+        bottom: 0;
+    }
+ }
+.sec1-img-text{
+    display: flex;
+}
+.sec1-icons{
+  display: flex;
+  flex-direction: column;
+  gap: 3.2vw;
+  margin-top: 4vw;
+    
+}
+.sec1-text{
+    font-size: 1.5vw;
+    font-weight: 600;
+    transform: rotate(90deg);
+    
+
+}
+.sec1-line{
+    width: 3vw;
+    height: 0.2vw;
+    background-color: black;
+    transform: rotate(90deg);
+    margin-left: 1.6vw;
+    margin-top: 1vw;
+    
+}
+.sec1-icon {
+    display: flex;
+    flex-direction: column;
+    font-size: 2vw;
+    gap: 1vw;
+    margin-left: 2.4vw;
+}
+
+h1{
+    font-size: 2.4vw;
+}
+
+.sec1-container2 p{
+    font-size: 1.3vw;
+    color: #474747;
+    font-weight: 500;
+}
+.sec1-container2 button{
+   background-color: #003826;
+    padding: 1vw 1.5vw;
+    color: #fff;
+    font-size: 1.3vw;
+    border: none;
+    text-align: center;
+    border-radius: 0.5vw;
+}
+.sec1-container2 i{
+   font-size: 2vw;
+}
+
+/*first section end*/
+
+
+/*second section start*/
+ .second-sec{
+    background-color: #fff;
+    min-height: 40vw;
+    
+ }
+
+ .sec2-container{
+    display: flex;
+    justify-content: center;
+    
+ }
+
+.sec2-img:hover{
+   animation: 3s ease-in-out infinite;
+   animation-name: sec2-img;
+}
+.sec2-img{
+    position: relative;
+}
+
+@keyframes sec2-img {
+
+    0% {
+        left: 0;
+    }
+    50%{
+        left:3vw;
+    }    
+    100%{
+        left: 0;
+    }
+ }
+
+.sec2-img1{
+    width: 22vw;
+    height: 30vw;
+    object-fit: cover;
+   
+}
+.sec2-img2{
+    width: 20vw;
+    height: 22vw;
+    object-fit: cover;
+    border: 7px solid #fff;
+    position: relative;
+    right: 6vw;
+}
+
+.sec2-text h2{
+    font-size: 2.2vw;
+}
+.sec2-text p {
+    font-size: 1.3vw;
+    color: #474747;
+   
+}
+.sec2-icons{
+    display: flex;
+}
+
+.sec2-icons input{
+    margin-top: 1.7vw;
+}
+.sec2-p{
+    margin-left: 1vw;
+}
+
+.sec1-icons p{
+    font-size: 1.5vw;
+   
+   
+}
+.sec3-icons{
+    display: flex;
+}
+.sec2-text button{
+    border: none;
+    background-color: transparent;
+    font-size: 1.2vw;
+    font-weight: 600;
+    color: #474747;
+}
+
+/*second section end*/
+
+
+/*thrid section start*/
+
+.third-sec{
+    min-height: 36vw;
+   
+}
+
+.sec3-container h2{
+    color: #fff;
+    text-align: center;
+    font-size: 2.2vw;
+}
+.sec3-container{
+    background-color: #003826;
+    border-radius: 0.3vw;
+    margin: 0 8.3vw;
+    padding: 4vw 0;
+}
+.sec3-boxs{
+   display: flex;
+   justify-content: space-around;
+   margin-top: 2vw;
+}
+.sec3-box1{
+    background-color: #fff;
+    padding: 1.5vw 2vw;
+    border-radius: 0.8vw;
+    position: relative;
+}
+
+.sec3-box1:hover{
+    animation: 3s ease-in-out infinite;
+    animation-name: sec3-box;
+    cursor: pointer;
+ }
+ 
+ @keyframes sec3-box {
+
+    0% {
+        bottom: 0;
+    }
+    50%{
+        bottom:5vw;
+    }    
+    100%{
+        bottom: 0;
+    }
+ }
+.sec3-box1 span{
+    font-size: 1.8vw;
+    background-color: #003826;
+    color: #fff;
+    padding: 0.2vw;
+    position: relative;
+}
+.sec3-box1 span:hover{
+    animation: 3s ease-in infinite;
+    animation-name: sec3-span;
+    cursor: pointer;
+ }
+ 
+ @keyframes sec3-span {
+
+    0% {
+        bottom: 0;
+    }
+    50%{
+        bottom:5vw;
+    }    
+    100%{
+        bottom: 0;
+    }
+ }
+
+.sec3-box1 h4{
+    font-size: 1.5vw;
+    padding-top: 1vw;
+}
+.sec3-box1 p{
+    color: #474747;
+    font-size: 1.3vw;
+}
+
+
+/*thrid section start*/
+
+
+/*fourth section start*/
+
+.fourth-sec{
+    background-color: #fff;
+    min-height: 42vw;
+}
+
+.sec4-container{
+    margin-top: 4vw;
+    margin-bottom: 4vw;
+}
+.sec4-container h2{
+    font-size: 2.2vw;
+    text-align: center;
+
+}
+.sec4-container p{
+    font-size: 1.3vw;
+    color: #474747;
+    text-align: center;
+}
+.plants {
+    display: flex;
+    justify-content: center;
+    gap: 6vw;
+}
+.sec4-img1{
+    width: 17vw;
+    height: 17vw;
+    position: relative;
+}
+.sec4-img1:hover{
+    animation: 3s ease-in-out infinite;
+    animation-name: sec4-img;
+    cursor: pointer;
+ }
+ 
+ @keyframes sec4-img {
+
+    0% {
+        bottom: 0;
+    }
+    50%{
+        bottom:5vw;
+    }    
+    100%{
+        bottom: 0;
+    }
+ }
+
+.sec4-spans{
+    display: flex;
+}
+.sec4-spans span{
+    display: block;
+    font-size: 1.5vw;
+    color: #474747;
+    font-weight: 600;
+}
+
+.sec4-spans i{
+    background-color: #003826;
+    color: #fff;
+    padding: 0.3vw;
+    border-radius: 0.2vw;
+    margin-top: 2vw;
+    margin-left: 4.5vw;
+}
+
+
+/*fourth section end*/
+
+
+/*fifth section start*/
+
+.fifth-sec{
+    background-color: #DEEAE2;
+    min-height: 40vw;
+}
+
+.sec5-container h2{
+    font-size: 2.2vw;
+    padding-left: 12.5vw;
+    padding-top: 4vw;
+}
+
+.sec5-texts{
+  display: flex;
+  gap: 4vw;
+  justify-content: center;
+  padding-top: 2vw;
+}
+
+.sec5-part1 div, .sec5-part2 div {
+    background-color: #fff;
+    width: 35vw;
+    height: 3vw;
+    padding-bottom: 1.3vw;
+    padding-left: 0.7vw;
+    
+}
+.sec5-part1 div:hover{
+    animation: 3s ease-in  infinite;
+    animation-name: sec5-div;
+    position: relative;
+    
+}
+.sec5-part2 div:hover{
+    animation: 3s ease-in  infinite;
+    animation-name: sec5-div;
+    position: relative;
+    
+}
+
+@keyframes sec5-div {
+
+    0% {
+        top: 0;
+    }
+    50%{
+        top:5vw;
+    }    
+    100%{
+        top: 0;
+    }
+ }
+
+.sec5-part1, .sec5-part2{
+    display: flex;
+    gap: 2vw;
+    flex-direction: column;
+}
+
+
+.sec5-part1 p, .sec5-part2 p {
+    font-size: 1.4vw;
+    font-weight: 500;
+    
+   
+}
+
+/*fifth section end*/
+
+
+/*sixth section start*/
+
+.sixth-sec{
+    background-color: #fff;
+    min-height: 40vw;
+}
+.sec6-container{
+    padding-top: 5vw;
+}
+.sec6-text{
+  display: flex;
+  justify-content: center;
+  gap: 18vw;
+}
+.sec6-part1{
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+}
+.sec6-part1 h2{
+    font-size: 2.2vw;
+}
+
+.tel span{
+    font-size: 1.3vw;
+    font-weight: 500;
+}   
+.tel i{
+    color: #474747;
+  
+} 
+.tel :nth-child(1){
+    display: block;
+}
+.tel :nth-child(2){
+    margin-right: 1vw;
+}
+
+
+.sec6-part2 input, textarea{
+    display: block;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    border-bottom-color: #AFB8B2;
+    font-size: 1.2vw;
+    font-weight: 600;
+    outline: none;
+    padding: 0.5vw 15vw 1vw 0vw;
+    background-color: transparent;
+    margin-top: 2vw;
+    
+    
+}
+.sec6-part2 textarea{
+    resize: none;
+    font-size: 1.28vw;
+    font-weight: 600;
+}
+
+.sec6-part2 button{
+    background-color: #003826;
+     padding: 1vw 1.5vw;
+     color: #fff;
+     font-size: 1.3vw;
+     border: none;
+     text-align: center;
+     border-radius: 0.5vw;
+     margin-top: 2vw;
+ }
+
+
+ /*responsiv*/
+
+ /*  1280    */
+
+
+ @media only screen and (max-width:1280px){
+    .first-sec {
+       min-height: 36vw;
+    }
+    .logo i {
+        font-size: 2.3vw;
+    }
+    .logo span {
+        font-size: 2vw;
+      
+    }
+    .header-list ul li a {
+        font-size: 1.6vw;
+    }
+    .sec1-container {
+       padding: 0 8vw;
+       margin-top: 2vw;
+    }
+    h1 {
+        font-size: 2.3vw;
+    }
+    .sec1-container2 p {
+        font-size: 1.3vw;
+     
+    }
+    .sec1-container2 button {
+        padding: 1vw 1.7vw;
+        font-size: 1.3vw;
+       
+    }
+    .img1 {
+        width: 37vw;
+        height: 25vw;
+    }
+    .sec1-text {
+        font-size: 1.9vw;
+      
+    }
+    .sec1-line {
+        margin-left: 2.5vw;
+        margin-top: 1.5vw;
+    }
+    .sec1-icon {
+       font-size: 2.5vw;
+        gap: 1vw;
+        margin-left: 2.9vw;
+    }
+    .second-sec {
+       min-height: 36vw;
+    }
+    .sec2-container {
+       padding: 0 6vw;
+    }
+    
+    .sec2-img1 {
+        width: 27vw;
+        height: 35vw;
+       
+        
+    }
+    .sec2-img2 {
+        width: 23vw;
+        height: 25vw;
+        left: 10vw;
+        bottom: 26vw;
+       
+       
+    }
+    .sec2-text {
+        margin-right: 9vw;
+    }
+    .sec2-text h2 {
+        font-size: 2.2vw;
+    }
+    .sec2-text p {
+        font-size: 1.3vw;
+       
+    }
+    .sec2-icons i {
+        font-size: 1.9vw;
+        margin-top: 2vw;
+    }
+    .sec2-text button {
+        font-size: 1.5vw;
+    }
+    .third-sec {
+        position: relative;
+        bottom: 18vw;
+        
+    }
+    .sec3-container h2 {
+       font-size: 2.2vw;
+    }
+    .sec3-box1 {
+       
+        padding: 4vw 2vw;
+        border-radius: 0.8vw;
+    }
+    .sec3-box1 span {
+        font-size: 2vw;
+        padding: 0.3vw;
+    }
+    .sec3-box1 h4 {
+        font-size: 1.7vw;
+        
+    }
+    .sec3-box1 p {
+        font-size: 1.4vw;
+    }
+    .fourth-sec{
+       position: relative;
+       bottom: 12vw;
+    }
+    .sec4-container h2 {
+        font-size: 2.4vw;
+        
+    }
+    .sec4-container p {
+        font-size: 1.2vw;
+       
+    }
+    .sec4-spans span {
+        font-size: 1.7vw;
+        
+    }
+    .sec4-spans i {
+       margin-top: 2.5vw;
+    
+    }
+    .fifth-sec {
+        position: relative;
+        bottom: 6vw;
+    }
+    .sec5-container h2 {
+        font-size: 2.2vw;
+       
+    }
+    .sec5-part1 p, .sec5-part2 p {
+        font-size: 1.4vw;
+    }
+    .sixth-sec {
+       position: relative;
+       bottom: 4vw;
+    }
+    .sec6-part1 h2 {
+        font-size: 2.2vw;
+    }
+    .tel span {
+        font-size: 1.4vw;
+    }
+    .tel i {
+       font-size: 1.4vw;
+    }
+    .sec6-part2 input, textarea {
+        font-size: 1.3vw;
+        
+    }
+    .sec6-part2 button {
+       font-size: 1.3vw;
+       
+    }
+    
+    
+ }
+
+ /*  1024    */
+
+ @media only screen and (max-width:1024px){
+    .sec1-container2 p {
+        font-size: 1.4vw;
+     
+    }
+    .sec1-container2 button {
+        font-size: 1.5vw;
+       
+    }
+    .sec2-text p {
+        font-size: 1.5vw;
+       
+    }
+    .sec2-img1 {
+       margin-top: 4vw;
+    }
+    .sec3-box1 p {
+        font-size: 1.5vw;
+    }
+    .sec4-container p {
+        font-size: 1.4vw;
+       
+    }
+    .tel span {
+        font-size: 1.6vw;
+    }
+    .tel i {
+       font-size: 1.6vw;
+    }
+    .sec6-part2 input, textarea {
+        font-size: 1.6vw;
+        
+    }
+    .sec6-part2 button {
+       font-size: 1.5vw;
+       
+    }
+ }
+
+
+ /*   912    */
+
+ @media only screen and (max-width:912px){
+    .header-list ul li a {
+        font-size: 1.7vw;
+    }
+    .sec1-container2 p {
+        font-size: 1.6vw;
+    }
+    .sec1-text{
+        font-size: 1.7vw;
+    }
+    .sec1-line{
+       margin-left: 3.2vw;
+        margin-top: 0.1vw;
+        
+    }
+    .sec1-icon {
+        font-size: 2.3vw;
+        margin-left: 3.7vw;
+    }
+    
+    .sec1-container2 button {
+        font-size: 1.6vw;
+    }
+    .sec2-text h2 {
+        font-size: 2.5vw;
+    }
+ 
+    .sec2-text p {
+        font-size: 1.5vw;
+       
+    }
+    .sec2-icons input{
+        margin-top: 1.9vw;
+    }
+    .sec2-text button {
+        font-size: 1.7vw;
+    }
+    .sec2-img1 {
+       margin-top: 4vw;
+    }
+    .sec3-box1 p {
+        font-size: 1.5vw;
+    }
+    .sec4-container p {
+        font-size: 1.7vw;
+       
+    }
+    .sec5-part1 p, .sec5-part2 p {
+        font-size: 1.6vw;
+    }
+    .tel span {
+        font-size: 1.6vw;
+    }
+    .tel i {
+       font-size: 1.6vw;
+    }
+    .sec6-part2 input, textarea {
+        font-size: 1.6vw;
+        
+    }
+    .sec6-part2 button {
+       font-size: 1.5vw;
+       
+    }
+ }
+
+
+ /*  820    */
+
+ @media only screen and (max-width:820px){
+    
+    .logo i {
+        font-size: 2.8vw;
+    }
+    .logo span {
+        font-size: 2.4vw;
+      
+    }
+    .header-list ul li a {
+        font-size: 1.9vw;
+    }
+    
+    h1 {
+        font-size: 2.7vw;
+    }
+    .sec1-container2 p {
+        font-size: 1.7vw;
+     
+    }
+    
+    .sec1-container2 button {
+       font-size: 1.7vw;
+       
+    }
+    .img1 {
+        width: 37vw;
+        height: 25vw;
+    }
+    .sec1-text {
+        font-size: 1.9vw;
+    }
+    .sec1-line {
+        margin-left: 3.2vw;
+        margin-top: 0.4vw;
+    }
+    .sec1-icon {
+       margin-left: 3.6vw;
+    }
+    
+    .sec2-text {
+        margin-right: 4vw;
+    }
+    .sec2-text h2 {
+        font-size: 2.8vw;
+    }
+    .sec2-text p {
+        font-size: 1.7vw;
+       
+    }
+    .sec2-icons input{
+        margin-top: 2.1vw;
+    }
+    .sec2-img1 {
+        width: 28vw;
+        height: 45vw;
+       
+        
+    }
+    
+     .sec2-text button {
+        font-size: 2vw;
+    }
+    
+    .sec3-container h2 {
+       font-size: 2.8vw;
+    }
+    .sec3-box1 {
+       padding: 5vw 2vw;
+       
+    }
+    .sec3-box1 span {
+        font-size: 2.5vw;
+        
+    }
+    .sec3-box1 h4 {
+        font-size: 2.2vw;
+        
+    }
+    .sec3-box1 p {
+        font-size: 1.7vw;
+    }
+
+     .sec4-container h2 {
+        font-size: 2.8vw;
+        
+    }
+    .sec4-container p {
+        font-size: 1.8vw;
+       
+    }
+    .sec4-spans span {
+        font-size: 1.9vw;
+        
+    }
+    .sec4-spans i {
+       margin-top: 2.5vw;
+    
+    }
+    
+    .sec5-container h2 {
+        font-size: 2.8vw;
+       
+    }
+    .sec5-part1 p, .sec5-part2 p {
+        font-size: 1.8vw;
+    }
+    
+    .sec6-part1 h2 {
+        font-size: 2.8vw;
+    }
+    .tel span {
+        font-size: 1.7vw;
+    }
+    .tel i {
+       font-size: 1.7vw;
+    }
+    .sec6-part2 input, textarea {
+        font-size: 1.7vw;
+        
+    }
+    .sec6-part2 button {
+       font-size: 1.6vw;
+       
+    }
+    
+    
+ }
+
+
+ /*  768    */
+
+ @media only screen and (max-width:768px){
+    
+    .logo i {
+        font-size: 3.2vw;
+    }
+    .logo span {
+        font-size: 3vw;
+      
+    }
+    .header-list ul li a {
+        font-size: 2.2vw;
+    }
+    
+    h1 {
+        font-size: 2.8vw;
+    }
+    .sec1-container2 p {
+        font-size: 1.9vw;
+     
+    }
+    
+    .sec1-container2 button {
+       font-size: 1.9vw;
+       
+    }
+    
+    .sec1-text {
+        font-size: 2.1vw;
+    }
+    
+    .sec1-icon {
+        font-size: 2.7vw;
+   
+    }
+    
+     .sec2-container{
+        padding-top: 6vw;
+     }
+    .sec2-text h2 {
+        font-size: 2.7vw;
+    }
+    .sec2-text p {
+        font-size: 1.8vw;
+        
+       
+    }
+    .sec2-text {
+        margin-right: 1vw;
+    }
+    
+    
+     .sec2-text button {
+        font-size: 2.1vw;
+    }
+    
+    
+
+    .sec3-box1 span {
+        font-size: 2.7vw;
+        
+    }
+    .sec3-box1 h4 {
+        font-size: 2.4vw;
+        
+    }
+    .sec3-box1 p {
+        font-size: 1.9vw;
+    }
+    .sec4-container h2 {
+        font-size: 2.9vw;
+    }
+
+     .sec4-container p {
+        font-size: 1.9vw;
+       
+    }
+    .sec5-part1 div, .sec5-part2 div{
+       padding-bottom: 3.5vw;
+    }
+   
+    .sec5-part1 p, .sec5-part2 p {
+        font-size: 1.8vw;
+    }
+    
+    .tel span {
+        font-size: 1.9vw;
+    }
+    .tel i {
+       font-size: 1.9vw;
+    }
+    .sec6-part2 input, textarea {
+        font-size: 1.9vw;
+        
+    }
+    .sec6-part2 button {
+       font-size: 1.8vw;
+       
+    }
+    
+    
+ }
+
+
+
+ /*     540   */
+
+
+ 
+@media only screen and (max-width:540px){
+   
+    header{
+
+    }
+    .header-list{
+        display: none;
+        
+    }
+
+    .hamburger-icon{
+        margin-top: 2vw;
+    }
+    
+    .logo{
+        margin-top: 2vw;
+        
+       
+    }
+    .logo i {
+        font-size: 4.5vw;
+    }
+    .logo span {
+        font-size: 4vw;
+    }
+    .hamburger-menu{
+        right: 0;
+        width: 40%;
+        z-index: 99;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .hamburger-menu ul i{
+        justify-self: flex-end;
+        color: #fff;
+        margin-left: 20vw;
+        }
+    
+      .hamburger-icon{
+        display: block;
+        font-size: 4vw;
+      }
+    
+      .hamburger-menu ul li {
+        font-size: 3.5vw;
+    }
+    
+    
+    .sec1-container {
+       padding: 0 8vw;
+      flex-direction: column-reverse;
+    }
+    h1 {
+        font-size: 4.5vw;
+    }
+    .sec1-container2 p {
+        font-size: 3vw;
+     
+    }
+    .sec1-container2 button {
+        padding: 2vw 3vw;
+        font-size: 3vw;
+       
+    }
+    .img1 {
+        width: 75vw;
+        height: 55vw;
+        margin-right: 17vw;
+    }
+
+    .sec1-icons{
+        position: relative;
+        right: 10vw;
+        top: 8vw;
+
+    }
+    .sec1-text {
+        display: none;
+      
+    }
+    .sec1-line {
+        display: none;
+        
+    }
+    .sec1-icon {
+    display: none;
+    }
+    .second-sec {
+       min-height: 36vw;
+    }
+    .sec2-container {
+       padding: 0 6vw;
+       flex-direction: column;
+    }
+    
+    .sec2-img1 {
+        width: 50vw;
+        height: 65vw;
+        margin-left: 18vw;
+       padding-top: 6vw;
+       
+    }
+    .sec2-img2 {
+        width: 40vw;
+        height: 45vw;
+        left: 25vw;
+        bottom: 47vw;
+    }
+    
+    .sec2-text{
+       position: relative;
+       bottom: 38vw;
+    }
+    .sec2-text h2 {
+        font-size: 4vw;
+    }
+    .sec2-text p {
+        font-size: 3vw;
+       
+    }
+    .sec2-icons input {
+        margin-top: 3.7vw;
+    }
+    .sec2-text button {
+        font-size: 3vw;
+    }
+    
+    .sec3-container h2 {
+       font-size: 4.5vw;
+    }
+    .sec3-boxs {
+       flex-direction: column;
+       gap: 2vw;
+    }
+    .sec3-box1 {
+       margin: 3vw 15vw;
+        padding: 4vw 2vw;
+        
+    }
+    .sec3-box1 span {
+        font-size: 4vw;
+       
+    }
+    .sec3-box1 h4 {
+        font-size: 3.7vw;
+        
+    }
+    .sec3-box1 p {
+        font-size: 3.2vw;
+    }
+    .plants {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .sec4-img1 {
+        width: 35vw;
+        height: 35vw;
+    }
+    
+    .sec4-container h2 {
+        font-size: 4.5vw;
+        
+    }
+    .sec4-container p {
+        font-size: 3vw;
+       
+    }
+    .sec4-spans span {
+        font-size: 3.2vw;
+        
+    }
+    .sec4-spans i {
+       margin-top: 4.5vw;
+       padding: 0.4vw;
+       font-size: 2.5vw;
+    
+    }
+    
+    .fifth-sec {
+        
+       padding-top: 3w;
+       padding-bottom: 5vw;
+    }
+    
+    .sec5-container h2 {
+        font-size: 4.5vw;
+        text-align: center;
+        
+    }
+    .sec5-texts {
+        flex-direction: column;
+        align-items: center;
+        gap: 2vw;
+    }
+    .sec5-part1 div, .sec5-part2 div{
+        width: 60vw;
+        height: 6vw;
+        padding-bottom: 3vw;
+        padding-left: 1vw;
+        
+        
+    }
+    .sec5-part1 p, .sec5-part2 p {
+        font-size: 3vw;
+    }
+    .sec6-text {
+       flex-direction: column;
+       gap: 2vw;
+       
+    }
+    .sec6-container{
+        margin-left: 8vw;
+    }
+
+
+    .sec6-part1 h2 {
+        font-size: 4.5vw;
+    }
+    .tel span {
+        font-size: 3vw;
+    }
+    .tel i {
+       font-size: 3vw;
+    }
+    .sec6-part2 input, textarea {
+        font-size: 2.7vw;
+        
+    }
+    .sec6-part2 button {
+       font-size: 2.8vw;
+       margin-top: 2vw;
+       
+    }
+    
+    
+ }
+
+
+
+ /*        414     */
+
+ @media only screen and (max-width:414px){
+    
+    .logo i {
+        font-size: 5vw;
+    }
+    .logo span {
+        font-size: 5vw;
+      
+    }
+    .header-list ul li a {
+        display: none;
+    }
+    .hamburger-icon{
+        font-size: 4vw;
+        margin-top: 2vw;
+    }
+    
+      .hamburger-icon{
+        display: block;
+        font-size: 4vw;
+      }
+    
+      .hamburger-menu ul li {
+        font-size: 4vw;
+    }
+
+    h1{
+        font-size: 5vw;
+    }
+    .sec1-container2 p {
+        font-size: 3.5vw;
+    }
+    
+    .sec1-container2 button {
+       font-size: 3.5vw;
+    }
+    
+    .sec1-text {
+        display: none;
+      
+    }
+    .sec1-line {
+       display: none;
+    }
+    .sec1-icon {
+       display: none;
+       
+    }
+    
+   
+    .sec2-text h2 {
+        font-size: 4.8vw;
+    }
+    .sec2-text p {
+        font-size: 3.6vw;
+       
+    }
+    .sec2-icons input {
+        margin-top: 4.3vw;
+    }
+    .sec2-text button {
+        font-size: 3.5vw;
+    }
+    
+    .sec3-container h2 {
+       font-size: 4.8vw;
+    }
+    
+    
+    .sec3-box1 span {
+        font-size: 5vw;
+       
+    }
+    .sec3-box1 h4 {
+        font-size: 4.6vw;
+        
+    }
+    .sec3-box1 p {
+        font-size: 3.8vw;
+    }
+    
+    
+    .sec4-container h2 {
+        font-size: 5vw;
+        
+    }
+    .sec4-container p {
+        font-size: 3.5vw;
+       
+    }
+    .sec4-spans span {
+        font-size: 3.7vw;
+        
+    }
+    .sec4-spans i {
+       margin-top: 6vw;
+       font-size: 3.5vw;
+    
+    }
+    
+    
+    .sec5-container h2 {
+        font-size: 5vw;
+       
+        
+    }
+    
+    .sec5-part1 div, .sec5-part2 div{
+        width: 70vw;
+        padding-bottom: 3.3vw;
+      }
+    .sec5-part1 p, .sec5-part2 p {
+        font-size: 3.5vw;
+    }
+    
+    
+    .sec6-part1 h2 {
+        font-size: 5vw;
+    }
+    .tel span {
+        font-size: 3.5vw;
+    }
+    .tel i {
+       font-size: 3.5vw;
+    }
+    .sec6-part2 input, textarea {
+        font-size: 3.2vw;
+        
+    }
+    .sec6-part2 button {
+       font-size: 3.2vw;
+     
+       
+    }
+    
+    
+ }
+
+
+ /*     390      */
+
+ @media only screen and (max-width:390px){
+    .hamburger-icon{
+        font-size: 4.5vw;
+        margin-top: 2vw;
+        
+      }
+      .hamburger-menu{
+       width:43%
+      }
+    
+      .hamburger-icon{
+        font-size: 4.5vw;
+      }
+    
+      .hamburger-menu ul li {
+        font-size: 4vw;
+    }
+    
+    h1{
+        font-size: 5.5vw;
+    }
+    .sec1-container2 p {
+        font-size: 3.8vw;
+    }
+    
+    .sec1-container2 button {
+       font-size: 3.8vw;
+    }
+    
+    .sec1-text {
+        display: none;
+    }
+    .sec1-line {
+        display: none;
+        
+    }
+    .sec1-icon {
+    display: none;
+    }
+    
+   
+    .sec2-text h2 {
+        font-size: 5.2vw;
+    }
+    .sec2-text p {
+        font-size: 3.8vw;
+       
+    }
+    .sec2-icons i {
+        font-size: 3.7vw;
+        margin-top: 3.9vw;
+    }
+    .sec2-text button {
+        font-size: 3.8vw;
+    }
+    
+    .sec3-container h2 {
+       font-size: 5vw;
+    }
+    .sec3-box1 span {
+        font-size: 5.3vw;
+    }
+    .sec3-box1 h4 {
+        font-size: 4.8vw;
+        
+    }
+    .sec3-box1 p {
+        font-size: 4vw;
+    }
+    
+    
+    .sec4-container h2 {
+        font-size: 5.3vw;
+        
+    }
+    .sec4-container p {
+        font-size: 4vw;
+        padding: 0 3vw;
+       
+    }
+    .sec4-spans span {
+        font-size: 3.9vw;
+        
+    }
+    .sec4-spans i {
+       margin-top: 6vw;
+       font-size: 3.8vw;
+      
+    
+    }
+    
+   
+    .tel span {
+        font-size: 3.8vw;
+    }
+    .tel i {
+       font-size: 3.8vw;
+    }
+    .sec6-part2 input, textarea {
+        font-size: 3.5vw;
+        
+    }
+    .sec6-part2 button {
+       font-size: 3.5vw;
+     
+       
+    }
+    
+    
+ }
+
+ /*       280         */
+
+
+ @media only screen and (max-width:280px){
+    .hamburger-menu{
+        right:0;
+        width:49%
+        
+      }
+    
+      .hamburger-icon{
+        font-size: 6vw;
+      }
+    
+      .hamburger-menu ul li {
+        font-size: 6vw;
+    }
+    .logo i {
+        font-size: 6vw;
+    }
+    .logo span {
+        font-size: 6vw;
+      
+    }
+    .hamburger-icon{
+        font-size: 5vw;
+        margin-top: 2vw;
+        
+      }
+    
+    h1{
+        font-size: 6vw;
+    }
+    .sec1-container2 p {
+        font-size: 4.5vw;
+    }
+    
+    .sec1-container2 button {
+       font-size: 4.5vw;
+    }
+    
+    .sec1-text {
+        display: none;
+      
+    }
+    .sec1-line {
+        display: none;
+        
+    }
+    .sec1-icon {
+    display: none;
+    }
+    
+   
+    .sec2-text h2 {
+        font-size: 6vw;
+    }
+    .sec2-text p {
+        font-size: 4.5vw;
+       
+    }
+    .sec2-icons input {
+        margin-top: 5.4vw;
+    }
+    .sec2-text button {
+        font-size: 4.5vw;
+    }
+    
+    .sec3-container h2 {
+       font-size: 5.2vw;
+    }
+    
+    .sec3-box1 span {
+        font-size: 7vw;
+       
+    }
+    .sec3-box1 h4 {
+        font-size: 5.8vw;
+        
+    }
+    .sec3-box1 p {
+        font-size: 5vw;
+    }
+    
+    
+    .sec4-container h2 {
+        font-size: 7vw;
+        
+    }
+    .sec4-container p {
+        font-size: 4.7vw;
+        padding: 0 6vw;
+       
+    }
+    .sec4-img1 {
+        width: 70vw;
+        height: 55vw;
+    }
+    .sec4-spans span {
+        font-size: 5vw;
+        
+    }
+    .sec4-spans i {
+       margin-top: 8vw;
+       font-size: 4.5vw;
+    
+    }
+    
+    
+    .sec5-container h2 {
+        font-size: 6vw;
+       
+        
+    }
+    
+    .sec5-part1 div, .sec5-part2 div{
+        width: 80vw;
+        padding-bottom: 7vw;
+
+      }
+    .sec5-part1 p, .sec5-part2 p {
+        font-size: 4.2vw;
+    }
+    
+    
+    .sec6-part1 h2 {
+        font-size: 5.8vw;
+    }
+    .tel span {
+        font-size: 4vw;
+    }
+    .tel i {
+       font-size: 4vw;
+    }
+    .sec6-part2 input, textarea {
+        font-size: 3.7vw;
+        
+    }
+    .sec6-part2 button {
+       font-size: 3.7vw;
+     
+       
+    }
+    
+    
+ }
+
+
+ 
+ 
+
+
+
+    
